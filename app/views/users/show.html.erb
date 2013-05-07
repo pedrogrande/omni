@@ -1,3 +1,9 @@
 <h3>User</h3>
+<%= image_tag @user.image %>
 <p>User: <%= @user.name %></p>
 <p>Email: <%= @user.email if @user.email %></p>
+<p>Location: <%= @user.location %></p>
+<p>Gender: <%= @user.gender %></p>
+<p>Link: <%= link_to 'Facebook', @user.link %></p>
+<p>First name: <%= @user.first_name %></p>
+<p>Last name: <%= @user.last_name %></p>
